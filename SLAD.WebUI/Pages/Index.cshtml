@@ -1,0 +1,27 @@
+﻿@page
+@using DataLib.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    @{
+        if (Model.ListItems == null || Model.ListItems.Count() == 0)
+        {
+            <p>The shopping list is empty!</p>
+        }
+        else
+        {
+            foreach (ListItem item in Model.ListItems)
+            {
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" asp-for="@item.IsSelected"/>
+                    <label class="form-check-label">@item.ItemName - Qty @item.ItemQty</label>
+                </div>
+            }
+        }
+    }
+    
+    <a asp-page="/AddItem"><button type="button" class="btn btn-dark">Add Item</button></a>
+</div>

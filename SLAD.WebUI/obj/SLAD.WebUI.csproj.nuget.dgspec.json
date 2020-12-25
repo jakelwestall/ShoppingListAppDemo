@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jacob/Repos/ShoppingListAppDemo/SLAD.WebUI/SLAD.WebUI.csproj": {}
+  },
+  "projects": {
+    "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj",
+        "projectName": "SLAD.DataLib",
+        "projectPath": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj",
+        "packagesPath": "/home/jacob/.nuget/packages/",
+        "outputPath": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jacob/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.113.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jacob/Repos/ShoppingListAppDemo/SLAD.WebUI/SLAD.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.WebUI/SLAD.WebUI.csproj",
+        "projectName": "SLAD.WebUI",
+        "projectPath": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.WebUI/SLAD.WebUI.csproj",
+        "packagesPath": "/home/jacob/.nuget/packages/",
+        "outputPath": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.WebUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jacob/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj": {
+                "projectPath": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
