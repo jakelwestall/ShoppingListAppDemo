@@ -5,23 +5,59 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    @{
-        if (Model.ListItems == null || Model.ListItems.Count() == 0)
+@{
+    if (Model.ListItems == null || Model.ListItems.Count() == 0)
+    {
+        <p>The shopping list is empty!</p>
+    }
+    else
+    {
+        foreach (ListItem item in Model.ListItems)
         {
-            <p>The shopping list is empty!</p>
-        }
-        else
-        {
-            foreach (ListItem item in Model.ListItems)
+            if (!item.IsSelected)
             {
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" asp-for="@item.IsSelected"/>
-                    <label class="form-check-label">@item.ItemName - Qty @item.ItemQty</label>
+                <div class="card">
+                    <div class="card-header">
+                        @item.ItemName
+                    </div>
+                    <div class="card-body">
+                        <p>Qty @item.ItemQty</p>
+
+                        <form asp-page-handler="mark" method="post">
+                            <button class="btn btn-dark text-right">Mark Checked</button>
+                            <input type="hidden" name="id" value="@item.ID"/>
+                        </form>
+                    </div>
                 </div>
+                <br/>
             }
         }
+
+        <h2>Checked Items</h2>
+
+        foreach (ListItem item in Model.ListItems)
+        {
+            if (item.IsSelected)
+            {
+                <div class="card border-danger mb-3">
+                    <div class="card-header bg-danger text-white">
+                        @item.ItemName
+                    </div>
+                    <div class="card-body">
+                        <p>Qty @item.ItemQty</p>
+
+                        <form asp-page-handler="unmark" method="post">
+                            <button class="btn btn-danger">Unmark Checked</button>
+                            <input type="hidden" name="id" value="@item.ID"/>
+                        </form>
+                    </div>
+                </div>
+                <br/>
+            }
+        }
+
+        <form asp-page-handler="delete" method="post">
+            <button class="btn btn-dark">Delete All Marked Items</button>
+        </form>
     }
-    
-    <a asp-page="/AddItem"><button type="button" class="btn btn-dark">Add Item</button></a>
-</div>
+}
