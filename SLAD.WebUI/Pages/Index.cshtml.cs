@@ -34,11 +34,13 @@ namespace SLAD.WebUI.Pages
 
         public async Task<IActionResult> OnPostDelete()
         {
+            ListItems = await DataAccess.LoadData<ListItem, dynamic>("select * from listitems", new { }, @"Data Source=Data/shoppinglist.db;Version=3;");
+
             foreach (ListItem item in ListItems)
             {
                 if (item.IsSelected)
                 {
-                    await DataAccess.SaveData<ListItem>("delete from listitems where id = @ID", item, @"Data Source=Data/shoppinglist.db;Version=3;");
+                    await DataAccess.SaveData<dynamic>($"delete from listitems where ID = { item.ID }", new { }, @"Data Source=Data/shoppinglist.db;Version=3;");
                 }
             }
 
