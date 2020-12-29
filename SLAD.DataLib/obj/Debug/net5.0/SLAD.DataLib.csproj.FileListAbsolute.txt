@@ -10,3 +10,15 @@
 /home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/obj/Debug/net5.0/SLAD.DataLib.dll
 /home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/obj/Debug/net5.0/ref/SLAD.DataLib.dll
 /home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/obj/Debug/net5.0/SLAD.DataLib.pdb
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\bin\Debug\net5.0\SLAD.DataLib.deps.json
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\bin\Debug\net5.0\SLAD.DataLib.dll
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\bin\Debug\net5.0\ref\SLAD.DataLib.dll
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\bin\Debug\net5.0\SLAD.DataLib.pdb
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\obj\Debug\net5.0\SLAD.DataLib.csprojAssemblyReference.cache
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\obj\Debug\net5.0\SLAD.DataLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\obj\Debug\net5.0\SLAD.DataLib.AssemblyInfoInputs.cache
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\obj\Debug\net5.0\SLAD.DataLib.AssemblyInfo.cs
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\obj\Debug\net5.0\SLAD.DataLib.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\obj\Debug\net5.0\SLAD.DataLib.dll
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\obj\Debug\net5.0\ref\SLAD.DataLib.dll
+C:\Users\Jacob\source\repos\ShoppingListAppDemo\SLAD.DataLib\obj\Debug\net5.0\SLAD.DataLib.pdb

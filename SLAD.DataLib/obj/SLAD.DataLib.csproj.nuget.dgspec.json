@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj": {}
+    "C:\\Users\\Jacob\\source\\repos\\ShoppingListAppDemo\\SLAD.DataLib\\SLAD.DataLib.csproj": {}
   },
   "projects": {
-    "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj": {
+    "C:\\Users\\Jacob\\source\\repos\\ShoppingListAppDemo\\SLAD.DataLib\\SLAD.DataLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj",
+        "projectUniqueName": "C:\\Users\\Jacob\\source\\repos\\ShoppingListAppDemo\\SLAD.DataLib\\SLAD.DataLib.csproj",
         "projectName": "SLAD.DataLib",
-        "projectPath": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/SLAD.DataLib.csproj",
-        "packagesPath": "/home/jacob/.nuget/packages/",
-        "outputPath": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.DataLib/obj/",
+        "projectPath": "C:\\Users\\Jacob\\source\\repos\\ShoppingListAppDemo\\SLAD.DataLib\\SLAD.DataLib.csproj",
+        "packagesPath": "C:\\Users\\Jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jacob\\source\\repos\\ShoppingListAppDemo\\SLAD.DataLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jacob/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

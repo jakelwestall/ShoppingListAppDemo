@@ -34,6 +34,7 @@ namespace SLAD.WebUI.Pages
 
         public async Task<IActionResult> OnPostDelete()
         {
+            // For some reason you have to pull the data from the database again to have items to foreach through in the list.
             ListItems = await DataAccess.LoadData<ListItem, dynamic>("select * from listitems", new { }, @"Data Source=Data/shoppinglist.db;Version=3;");
 
             foreach (ListItem item in ListItems)

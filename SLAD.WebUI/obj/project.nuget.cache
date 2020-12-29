@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MsmAeg4Bw8WPOJ/N4Noswt9lbZ3t0s54Ida481aTXr0oUTJPsHKWovZe1LpbNBeVAeH/824ZK0sJzwnIXYhnqg==",
+  "dgSpecHash": "UhmczgsEcn43jK0ka1PVtBuw5PNQlnCDhh9ASidfHesqXH1TYTBBX3v7oJ0FlvsA9oDvxmz28FbxXYfoHvLFmA==",
   "success": true,
-  "projectFilePath": "/home/jacob/Repos/ShoppingListAppDemo/SLAD.WebUI/SLAD.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\Jacob\\source\\repos\\ShoppingListAppDemo\\SLAD.WebUI\\SLAD.WebUI.csproj",
   "expectedPackageFiles": [
-    "/home/jacob/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
-    "/home/jacob/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.113.1/stub.system.data.sqlite.core.netstandard.1.0.113.1.nupkg.sha512",
-    "/home/jacob/.nuget/packages/system.data.sqlite.core/1.0.113.6/system.data.sqlite.core.1.0.113.6.nupkg.sha512"
+    "C:\\Users\\Jacob\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Jacob\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.113.1\\stub.system.data.sqlite.core.netstandard.1.0.113.1.nupkg.sha512",
+    "C:\\Users\\Jacob\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.6\\system.data.sqlite.core.1.0.113.6.nupkg.sha512"
   ],
   "logs": []
 }

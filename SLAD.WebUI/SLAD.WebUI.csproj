@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>5c96eaba-b5b8-4ed0-a869-67914a316a71</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include = "..\SLAD.DataLib\SLAD.DataLib.csproj" />
+    <ProjectReference Include="..\SLAD.DataLib\SLAD.DataLib.csproj" />
   </ItemGroup>
 
   <ItemGroup>
